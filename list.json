@@ -69,5 +69,15 @@
     "image": "sonm/cpu-cryptonight@sha256:13729fca8a4f60f8ced6001ea41dc2609ef7219b0a1a713ce2fab5b222e2b314",
     "type": 1,
     "splittingAlgorithm": 1
+  },
+  "gpu-nvidia": {
+    "id": 13,
+    "type": 2,
+    "splittingAlgorithm": 2
+  },
+  "gpu-amd": {
+    "id": 14,
+    "type": 2,
+    "splittingAlgorithm": 2
   }
 }
