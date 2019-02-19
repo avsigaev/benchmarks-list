@@ -75,7 +75,7 @@
     "type": 2,
     "splittingAlgorithm": 2
   },
-  "gpu-amd": {
+  "gpu-radeon": {
     "id": 14,
     "type": 2,
     "splittingAlgorithm": 2
