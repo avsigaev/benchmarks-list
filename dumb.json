@@ -67,7 +67,7 @@
   "cpu-cryptonight": {
     "id": 12,
     "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
-    "type": 2,
+    "type": 1,
     "splittingAlgorithm": 1
   },
   "gpu-nvidia": {
