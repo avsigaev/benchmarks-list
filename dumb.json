@@ -1,13 +1,13 @@
 {
   "cpu-sysbench-multi": {
     "id": 0,
-    "image": "sonm/dumb-bench@sha256:25af9e3753d245e6865896b42270a0095c84e390f5056606f2e6a31326eb6e0c",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 1,
     "splittingAlgorithm": 1
   },
   "cpu-sysbench-single": {
     "id": 1,
-    "image": "sonm/dumb-bench@sha256:25af9e3753d245e6865896b42270a0095c84e390f5056606f2e6a31326eb6e0c",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 1
   },
   "cpu-cores": {
@@ -26,13 +26,13 @@
   },
   "net-download": {
     "id": 5,
-    "image": "sonm/net-bandwidth@sha256:e51c367c5ad56c9ea1dbe1497b4acc7d0839be0832d8b77986b931eedc766fc2",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 5,
     "splittingAlgorithm": 1
   },
   "net-upload": {
     "id": 6,
-    "image": "sonm/net-bandwidth@sha256:e51c367c5ad56c9ea1dbe1497b4acc7d0839be0832d8b77986b931eedc766fc2",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 6,
     "splittingAlgorithm": 1
   },
@@ -48,30 +48,31 @@
   },
   "gpu-eth-hashrate": {
     "id": 9,
-    "image": "sonm/dumb-bench@sha256:25af9e3753d245e6865896b42270a0095c84e390f5056606f2e6a31326eb6e0c",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 2,
     "splittingAlgorithm": 1
   },
   "gpu-cash-hashrate": {
     "id": 10,
-    "image": "sonm/dumb-bench@sha256:25af9e3753d245e6865896b42270a0095c84e390f5056606f2e6a31326eb6e0c",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 2,
     "splittingAlgorithm": 1
   },
   "gpu-redshift": {
     "id": 11,
-    "image": "sonm/dumb-bench@sha256:25af9e3753d245e6865896b42270a0095c84e390f5056606f2e6a31326eb6e0c",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 2,
     "splittingAlgorithm": 1
   },
   "cpu-cryptonight": {
     "id": 12,
-    "image": "sonm/dumb-bench@sha256:26cfea58ed2547e97117c6d8ae577077d2a0fae3608f01ff35c75d8f4698f52e",
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 2,
     "splittingAlgorithm": 1
   },
   "gpu-nvidia": {
     "id": 13,
+    "image": "avsigaev/test-bench@sha256:80afbedc18b40ff96ecfc48ec12c6caa1090c725517ff9ed45e23494fe144bcb",
     "type": 2,
     "splittingAlgorithm": 2
   },
